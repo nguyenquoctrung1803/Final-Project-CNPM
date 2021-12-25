@@ -158,19 +158,7 @@ namespace Final_Project
                 SetValueForText1 = username;
                 Form1 frm1 = new Form1();
                 frm1.Show();
-                //QLNV = PhanQuyen(15);
-                //QLKH = PhanQuyen(16);
-                //QLLK = PhanQuyen(17);
-                //QLBH = PhanQuyen(18);
-                //QLNCC = PhanQuyen(19);
-                //QLLLK = PhanQuyen(20);
-                //QLNK = PhanQuyen(21);
-                //BaoHanh = PhanQuyen(22);
-                //PhanQuyenn = PhanQuyen(23);
-                //ThongKe = PhanQuyen(24);
-                //HoaDon = PhanQuyen(25);
-                //Setting = PhanQuyen(26);
-                this.Close();
+                this.Hide();
             }
 
         }
@@ -188,7 +176,9 @@ namespace Final_Project
 
         private void linklblQuenPass_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-           
+            this.Hide();
+            Frm_LaylaiPass frm_LaylaiPass = new Frm_LaylaiPass();
+            frm_LaylaiPass.Show();
         }
 
         private void txtTenDN_TextChanged(object sender, EventArgs e)
