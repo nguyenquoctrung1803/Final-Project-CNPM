@@ -41,7 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="NhanVien_DAL.cs" />
+    <Compile Include="ChucVu_DAL.cs" />
+    <Compile Include="KhachHang_DAL.cs" />
     <Compile Include="Login_DAL.cs" />
     <Compile Include="KetNoiDatabase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -39,6 +39,9 @@
     <Reference Include="MetroFramework">
       <HintPath>..\MetroFramework\MetroFramework.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Management" />
@@ -59,11 +62,23 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_KH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_KH.designer.cs">
+      <DependentUpon>Frm_KH.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_LaylaiPass.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Frm_LaylaiPass.designer.cs">
       <DependentUpon>Frm_LaylaiPass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_NhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_NhanVien.designer.cs">
+      <DependentUpon>Frm_NhanVien.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_TaoTaiKhoan.cs">
       <SubType>Form</SubType>
@@ -82,8 +97,14 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Frm_KH.resx">
+      <DependentUpon>Frm_KH.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_LaylaiPass.resx">
       <DependentUpon>Frm_LaylaiPass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_NhanVien.resx">
+      <DependentUpon>Frm_NhanVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_TaoTaiKhoan.resx">
       <DependentUpon>Frm_TaoTaiKhoan.cs</DependentUpon>
