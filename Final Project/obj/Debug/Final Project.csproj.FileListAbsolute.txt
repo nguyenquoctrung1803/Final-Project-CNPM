@@ -1,0 +1,18 @@
+C:\Users\Admin\Desktop\Final Project\Final Project\bin\Debug\Final Project.exe.config
+C:\Users\Admin\Desktop\Final Project\Final Project\bin\Debug\Final Project.exe
+C:\Users\Admin\Desktop\Final Project\Final Project\bin\Debug\Final Project.pdb
+C:\Users\Admin\Desktop\Final Project\Final Project\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\Admin\Desktop\Final Project\Final Project\bin\Debug\BUS.dll
+C:\Users\Admin\Desktop\Final Project\Final Project\bin\Debug\DTO.dll
+C:\Users\Admin\Desktop\Final Project\Final Project\bin\Debug\DAL.dll
+C:\Users\Admin\Desktop\Final Project\Final Project\bin\Debug\BUS.pdb
+C:\Users\Admin\Desktop\Final Project\Final Project\bin\Debug\DTO.pdb
+C:\Users\Admin\Desktop\Final Project\Final Project\bin\Debug\DAL.pdb
+C:\Users\Admin\Desktop\Final Project\Final Project\obj\Debug\Final Project.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Final Project\Final Project\obj\Debug\Final_Project.Login.resources
+C:\Users\Admin\Desktop\Final Project\Final Project\obj\Debug\Final_Project.Properties.Resources.resources
+C:\Users\Admin\Desktop\Final Project\Final Project\obj\Debug\Final Project.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\Final Project\Final Project\obj\Debug\Final Project.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Final Project\Final Project\obj\Debug\Final Project.csproj.CopyComplete
+C:\Users\Admin\Desktop\Final Project\Final Project\obj\Debug\Final Project.exe
+C:\Users\Admin\Desktop\Final Project\Final Project\obj\Debug\Final Project.pdb
