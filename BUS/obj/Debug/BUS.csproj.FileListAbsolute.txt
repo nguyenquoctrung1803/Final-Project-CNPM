@@ -9,3 +9,7 @@ C:\Users\Admin\Desktop\Final Project\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.
 C:\Users\Admin\Desktop\Final Project\BUS\obj\Debug\BUS.csproj.CopyComplete
 C:\Users\Admin\Desktop\Final Project\BUS\obj\Debug\BUS.dll
 C:\Users\Admin\Desktop\Final Project\BUS\obj\Debug\BUS.pdb
+C:\Users\Quoc Trung\source\repos\Final Project\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+C:\Users\Quoc Trung\source\repos\Final Project\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\Quoc Trung\source\repos\Final Project\BUS\obj\Debug\BUS.dll
+C:\Users\Quoc Trung\source\repos\Final Project\BUS\obj\Debug\BUS.pdb

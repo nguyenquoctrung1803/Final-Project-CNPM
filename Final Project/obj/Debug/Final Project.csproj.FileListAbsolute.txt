@@ -20,3 +20,17 @@ C:\Users\Admin\Desktop\Final Project\Final Project\obj\Debug\Final_Project.Frm_L
 C:\Users\Admin\Desktop\Final Project\Final Project\obj\Debug\Final_Project.Frm_TaoTaiKhoan.resources
 C:\Users\Admin\Desktop\Final Project\Final Project\bin\Debug\MetroFramework.dll
 C:\Users\Admin\Desktop\Final Project\Final Project\obj\Debug\Final_Project.Form1.resources
+C:\Users\Quoc Trung\source\repos\Final Project\Final Project\obj\Debug\Final Project.csproj.AssemblyReference.cache
+C:\Users\Quoc Trung\source\repos\Final Project\Final Project\obj\Debug\Final_Project.Form1.resources
+C:\Users\Quoc Trung\source\repos\Final Project\Final Project\obj\Debug\Final_Project.Frm_ChucVu.resources
+C:\Users\Quoc Trung\source\repos\Final Project\Final Project\obj\Debug\Final_Project.Frm_KH.resources
+C:\Users\Quoc Trung\source\repos\Final Project\Final Project\obj\Debug\Final_Project.Frm_LaylaiPass.resources
+C:\Users\Quoc Trung\source\repos\Final Project\Final Project\obj\Debug\Final_Project.Frm_NhanVien.resources
+C:\Users\Quoc Trung\source\repos\Final Project\Final Project\obj\Debug\Final_Project.Frm_TaoTaiKhoan.resources
+C:\Users\Quoc Trung\source\repos\Final Project\Final Project\obj\Debug\Final_Project.Frm_ThongTinNhanVien.resources
+C:\Users\Quoc Trung\source\repos\Final Project\Final Project\obj\Debug\Final_Project.Login.resources
+C:\Users\Quoc Trung\source\repos\Final Project\Final Project\obj\Debug\Final_Project.Properties.Resources.resources
+C:\Users\Quoc Trung\source\repos\Final Project\Final Project\obj\Debug\Final Project.csproj.GenerateResource.cache
+C:\Users\Quoc Trung\source\repos\Final Project\Final Project\obj\Debug\Final Project.csproj.CoreCompileInputs.cache
+C:\Users\Quoc Trung\source\repos\Final Project\Final Project\obj\Debug\Final Project.exe
+C:\Users\Quoc Trung\source\repos\Final Project\Final Project\obj\Debug\Final Project.pdb

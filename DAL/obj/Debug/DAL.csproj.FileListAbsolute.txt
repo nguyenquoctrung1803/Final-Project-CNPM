@@ -7,3 +7,7 @@ C:\Users\Admin\Desktop\Final Project\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.
 C:\Users\Admin\Desktop\Final Project\DAL\obj\Debug\DAL.csproj.CopyComplete
 C:\Users\Admin\Desktop\Final Project\DAL\obj\Debug\DAL.dll
 C:\Users\Admin\Desktop\Final Project\DAL\obj\Debug\DAL.pdb
+C:\Users\Quoc Trung\source\repos\Final Project\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\Quoc Trung\source\repos\Final Project\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Quoc Trung\source\repos\Final Project\DAL\obj\Debug\DAL.dll
+C:\Users\Quoc Trung\source\repos\Final Project\DAL\obj\Debug\DAL.pdb

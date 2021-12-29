@@ -12,13 +12,13 @@ namespace DAL
     public class KetNoiDatabase
     {
         public static SqlConnection ConnectDB;
-        
+
         // MỞ KẾT NỐI TỚI SQL SERVER
         public void OpenConnect()
         {
             if (KetNoiDatabase.ConnectDB == null)
 
-                KetNoiDatabase.ConnectDB = new SqlConnection(@"Data Source=ADMIN\SQLEXPRESS; Initial Catalog =PM_BanLinhKienPC;Integrated Security = True");
+                KetNoiDatabase.ConnectDB = new SqlConnection(@"Data Source=DESKTOP-U9ADT38\SQLEXPRESS; Initial Catalog =PM_BanLinhKienPC;Integrated Security = True");
 
             if (KetNoiDatabase.ConnectDB.State != ConnectionState.Open)
                 KetNoiDatabase.ConnectDB.Open();

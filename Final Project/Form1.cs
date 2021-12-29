@@ -97,30 +97,15 @@ namespace Final_Project
             }
         }
 
-        private void btnLinhKien_Click(object sender, EventArgs e)
-        {
-            if (PhanQuyen(17))
-            {
-                openChildForm(new Frm_SanPham());
-                lbl_HienThiForm.Text = "Quản Lý Linh Kiện";
-            }
-            else
-            {
-                MessageBox.Show("Bạn Không Có Quyền Truy Cập", "Cảnh Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
-        }
+        
 
-        private void btnNCC_Click(object sender, EventArgs e)
-        {
-            openChildForm(new Frm_NhaCungCap());
-            lbl_HienThiForm.Text = "Quản Lý Nhà Cung Cấp";
-        }
+       
 
         private void btnPhieuNhap_Click(object sender, EventArgs e)
         {
             if (PhanQuyen(21))
             {
-                openChildForm(new Frm_HoaDonNhap());
+                //openChildForm(new Frm_HoaDonNhap());
                 lbl_HienThiForm.Text = "Nhập Hàng";
             }
             else
@@ -143,7 +128,7 @@ namespace Final_Project
         {
             if (PhanQuyen(25))
             {
-                openChildForm(new Frm_HoaDonBanHang());
+                //openChildForm(new Frm_HoaDonBanHang());
                 lbl_HienThiForm.Text = "Quản Lý Hóa Đơn Bán";
             }
             else
@@ -171,7 +156,7 @@ namespace Final_Project
 
         private void btnTimKiem_Click(object sender, EventArgs e)
         {
-            openChildForm(new Frm_Alert());
+            //openChildForm(new Frm_Alert());
             lbl_HienThiForm.Text = "Tra Cứu Tổng Hợp";
         }
 
@@ -179,16 +164,12 @@ namespace Final_Project
         public static string UserName = "";
         public static bool QLNV;//4
         public static bool QLKH;
-        public static bool QLLK;
-        public static bool QLLLK;
-        public static bool QLBH;
-        public static bool BaoHanh;
-        public static bool QLNCC;
+    
         public static bool QLNK;
         public static bool PhanQuyenn;
         public static bool ThongKe;
         public static bool HoaDon;
-        public static bool Setting;
+       
 
         public bool PhanQuyen(int col)
         {
@@ -205,18 +186,16 @@ namespace Final_Project
         private void Form1_Load(object sender, EventArgs e)
         {
             lbl_HienThiForm.Text = "Trang Chủ";
+            //Login frmDN = new Login();
+            //frmDN.ShowDialog();
+            //if (Login.IsClose) this.Close();
             if (PhanQuyen(15)) btnNhanVien.Enabled = true; else btnNhanVien.Visible = false;
             if (PhanQuyen(16)) btnKhachHang.Enabled = true; else btnKhachHang.Visible = false;
-            if (PhanQuyen(17)) btnLinhKien.Enabled = true; else btnLinhKien.Visible = false;
             if (PhanQuyen(18)) btnBanHang.Enabled = true; else btnBanHang.Visible = false;
-            if (PhanQuyen(19)) btnNhaCungCap.Enabled = true; else btnNhaCungCap.Visible = false;
-            if (PhanQuyen(20)) btnLoaiLK.Enabled = true; else btnLoaiLK.Visible = false;
             if (PhanQuyen(21)) btnPhieuNhap.Enabled = true; else btnPhieuNhap.Visible = false;
-            if (PhanQuyen(22)) btnBaohanh.Enabled = true; else btnBaohanh.Visible = false;
             if (PhanQuyen(23)) btnPhanQuyen.Enabled = true; else btnPhanQuyen.Visible = false;
             if (PhanQuyen(24)) btnThongKe.Enabled = true; else btnThongKe.Visible = false;
             if (PhanQuyen(25)) btnHoaDon.Enabled = true; else btnHoaDon.Visible = false;
-            if (PhanQuyen(26)) btnSetting.Enabled = true; else btnSetting.Visible = false;
             labelHienThiTenDangNhap.Text = Login.TenTaiKhoan;
         }
 
@@ -229,7 +208,7 @@ namespace Final_Project
         {
             if (PhanQuyen(25))
             {
-                openChildForm(new Frm_HoaDonBanHang());
+                //openChildForm(new Frm_HoaDonBanHang());
                 lbl_HienThiForm.Text = "Hóa Đơn Bán Hàng";
             }
             else
@@ -262,14 +241,10 @@ namespace Final_Project
                 btnKhachHang.Text = "Quản lý khách hàng";
                 btnHoaDon.Text = "Quản lý hóa đơn bán";
                 btnPhieuNhap.Text = "Nhập hàng";
-                btnLinhKien.Text = "Linh kiện";
-                btnLoaiLK.Text = "Loại linh kiện";
-                btnNhaCungCap.Text = "Nhà cung cấp";
+      
                 btnBanHang.Text = "Bán hàng";
-                btnBaohanh.Text = "Bảo hành";
                 btnThongKe.Text = "Thống kê";
                 btnProfile.Text = "Thông tin cá nhân";
-                btnSetting.Text = "Setting";
                 btnPhanQuyen.Text = "Phân quyền";
             }
             else
@@ -279,14 +254,10 @@ namespace Final_Project
                 btnKhachHang.Text = "";
                 btnHoaDon.Text = "";
                 btnPhieuNhap.Text = "";
-                btnLinhKien.Text = "";
-                btnLoaiLK.Text = "";
-                btnNhaCungCap.Text = "";
+              
                 btnBanHang.Text = "";
-                btnBaohanh.Text = "";
                 btnThongKe.Text = "";
                 btnProfile.Text = "";
-                btnSetting.Text = "";
                 btnPhanQuyen.Text = "";
             }
         }
@@ -308,25 +279,13 @@ namespace Final_Project
         }
 
 
-        private void btnNhaCungCap_Click(object sender, EventArgs e)
-        {
-            if (PhanQuyen(19))
-            {
-                lbl_HienThiForm.Text = "Nhà Cung Cấp";
-                openChildForm(new Frm_NhaCungCap());
-            }
-            else
-            {
-                MessageBox.Show("Bạn Không Có Quyền Truy Cập", "Cảnh Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
-        }
 
         private void btnBanHang_Click(object sender, EventArgs e)
         {
             if (PhanQuyen(18))
             {
                 lbl_HienThiForm.Text = "Bán Hàng";
-                openChildForm(new Frm_BanHan());
+                //openChildForm(new Frm_BanHan());
             }
             else
             {
@@ -334,25 +293,14 @@ namespace Final_Project
             }
         }
 
-        private void btnBaohanh_Click_1(object sender, EventArgs e)
-        {
-            if (PhanQuyen(22))
-            {
-                lbl_HienThiForm.Text = "Bảo Hành";
-                openChildForm(new Frm_BaoHanh());
-            }
-            else
-            {
-                MessageBox.Show("Bạn Không Có Quyền Truy Cập", "Cảnh Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
-        }
+  
 
         private void btnThongKe_Click_1(object sender, EventArgs e)
         {
             if (PhanQuyen(24))
             {
                 lbl_HienThiForm.Text = "Thống Kê";
-                openChildForm(new Frm_ThongKe());
+                //openChildForm(new Frm_ThongKe());
             }
             else
             {
@@ -373,45 +321,10 @@ namespace Final_Project
             }
         }
 
-        private void btnLoaiLK_Click(object sender, EventArgs e)
-        {
-            if (PhanQuyen(20))
-            {
-                lbl_HienThiForm.Text = "Loại Linh Kiện";
-                openChildForm(new Frm_LLinhKien());
-            }
-            else
-            {
-                MessageBox.Show("Bạn Không Có Quyền Truy Cập", "Cảnh Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
-        }
 
-        private void btnNhaSanXuat_Click(object sender, EventArgs e)
-        {
-            lbl_HienThiForm.Text = "Nhà Sản Xuất";
-            openChildForm(new Frm_NSX());
-        }
+     
 
-        public static string SetValueForText1 = "";
-
-        private void labelHienThiTenDangNhap_Click(object sender, EventArgs e)
-        {
-            lbl_HienThiForm.Text = "Thông Tin Cá Nhân";
-            openChildForm(new Frm_ThongTinNhanVien());
-        }
-
-        private void btnSetting_Click_1(object sender, EventArgs e)
-        {
-            if (PhanQuyen(26))
-            {
-                lbl_HienThiForm.Text = "Setting";
-                openChildForm(new Frm_Setting());
-            }
-            else
-            {
-                MessageBox.Show("Bạn Không Có Quyền Truy Cập", "Cảnh Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
-        }
+      
 
         public void UpdateFormColor()
         {
@@ -557,41 +470,5 @@ namespace Final_Project
             lbl_HienThiForm.Text = "Thông Tin Cá Nhân";
             openChildForm(new Frm_ThongTinNhanVien());
         }
-
-        private void panelBot_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void labeldateTime_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panelTop_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void lbl_HienThiForm_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panelSideMenu_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panelChildForm_Paint_1(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panelLogo_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
     }
 }
