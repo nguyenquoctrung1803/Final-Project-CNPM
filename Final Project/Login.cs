@@ -84,16 +84,10 @@ namespace Final_Project
         public static bool IsClose = false;
         public static bool QLNV;//4
         public static bool QLKH;
-        public static bool QLLK;
-        public static bool QLLLK;
-        public static bool QLBH;
-        public static bool BaoHanh;
-        public static bool QLNCC;
         public static bool QLNK;
         public static bool PhanQuyenn;
         public static bool ThongKe;
         public static bool HoaDon;
-        public static bool Setting;
         public static string TenTaiKhoan = "";//lấy thêm têm tài khoản nhé, 
 
         public bool PhanQuyen(int col)
